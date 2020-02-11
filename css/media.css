@@ -1,0 +1,46 @@
+/* media query */
+/* smart phone and tablte screen */
+@media(max-width:767px) {
+    .navbar-inverse .navbar-nav > li > a {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .subscribe .form-control {
+        margin: 20px auto;
+        width: 400px;
+    }
+
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {
+        max-height: none;
+    }
+}
+
+
+/* small screen 
+@media(min-width:768px) and (max-width:991px) {
+    h2 {
+        font-size: 150px;
+        color: #00F;
+    }
+}
+
+
+/* mediam screen 
+@media(min-width:992px) and (max-width:1199px) {
+    h2 {
+        font-size: 150px;
+        color: #080;
+    }
+}
+
+
+/* large screen 
+@media(min-width:1200px) {
+    h2 {
+        font-size: 150px;
+        color: yellow;
+    }
+}
+*/
